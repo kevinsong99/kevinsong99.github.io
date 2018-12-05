@@ -1,0 +1,54 @@
+---
+title: "Basic Git Bash Commands"
+author: "Zikai Song"
+output: html_document
+---
+
+## Set Up
+
+Please got to [Git](https://git-scm.com/downloads) website and follow the instruction to download Git Bash. You may also want to set up your own account on [GitHub](https://github.com).
+
+## Working Directory
+
+**pwd**
+
+Getting current working directory you are at.
+
+**cd Documents/GitHub**
+
+Change the working directory to the folder you want. cd stands for "change directory".
+
+## Clone from GitHub
+
+**git clone <https or ssh link>**
+
+Create a folder in your current working directory and clone the file on GitHub repo into the folder.
+
+## Push back to GitHub
+
+**git add "< filename >"**</br>
+Add files into the pushing list.</br>
+The "tab" button is a shortcut for you to get the file you want without typing out the full name.
+
+You can also use</br>
+**git add .**</br>
+to add all the newly created file and modified file at once.
+
+After adding all the files, use</br>
+**git status -s**</br>
+to check the status of files you just added.
+
+Then, use</br>
+**git commit -a -m "< comment >"**</br>
+to commit all the file into the pushing process.</br>
+You can give a comment or message stating the purpose of this commit.
+
+If you want to commit the file one at a single time, use</br>
+**git commit -m "< comment >" "< filename >"**
+
+Last but not least,</br>
+**git push**</br>
+to push all the changes to the branch.
+
+##All done!
+##Have fun coding!
